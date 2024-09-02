@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon_io/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- title -->
+    <title>Document</title>
+  </head>
+  <body class="box-border p-0 m-0 scroll-smooth">
+    <!-- unsticky header -->
+    <section class="relative mx-auto">
+      <!-- navbar -->
+      <nav class="bg-gray-900 text-white">
+        <div
+          class="grid grid-cols-2 place-content-center px-5 xl:px-12 py-6 flex w-full items-center px-[10px] sm:px-[50px] md:px-[85px] xl:px-[100px]"
+        >
+          <!-- logo -->
+          <a class="text-3xl col-span-1 font-bold font-heading" href="#">
+            <!-- <img class="h-9" src="logo.png" alt="logo"> -->
+            <img src="./favicon_ioo/favicon.ico" alt="" />
+          </a>
+          <!-- Header Icons -->
+          <div class="flex items-center space-x-5 justify-end">
+            <!-- favorite -->
+            <a class="hover:text-gray-200" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            </a>
+            <!-- Sign In / Register      -->
+            <a class="items-center hover:text-gray-200" href="./login.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 hover:text-gray-200"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- sticky header -->
+    <header class="mb-3 w-full sticky top-0 bg-primary z-50">
+      <nav class="grid grid-col-1 md:grid-cols-2">
+        <ul class="flex pl-4">
+          <li class="p-5">
+            <a href="#" class="hover:text-red-500"> Home </a>
+          </li>
+          <li class="p-5">
+            <a href="./details.html" class="hover:text-red-500"> Details </a>
+          </li>
+          <li class="p-5">
+            <a href="./aboutus.html" class="hover:text-red-500"> About Us </a>
+          </li>
+        </ul>
+
+        <div
+          class="flex pl-4 items-center gap-1 justify-end p-2 text-xs md:text-md"
+        >
+          <i class="fa-regular fa-clock"></i>
+          <i class="fa-solid fa-cloud"></i>
+          <span
+            class="flex pl-4 items-center justify-end p-2 text-xs md:text-md"
+            id="time"
+          >
+          </span>
+        </div>
+      </nav>
+    </header>
+    <!-- hero-banner -->
+    <section
+      class="grid grid-cols-4 grid-rows-[100px_100px_100px_100px] gap-1 bg-primary mb-10 p-1"
+    >
+      <!-- slider -->
+      <div
+        class="col-span-4 row-span-4 sm:col-span-2 bg-primary rounded-md sm:overflow-hidden"
+      >
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./img/cstad.png"
+                alt="CSTAD"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://i0.wp.com/www.tgnns.com/wp-content/uploads/2024/08/Paetongtarn-Shinawatra-Thailand-New-Prime-Minister.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="
+                https://i.ytimg.com/vi/nP24eyJfO7k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7ZJOUbf3v9AqlmjE6WeX35FBGlA"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://i.ytimg.com/vi/m2HWS4I123M/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="https://bloximages.chicago2.vip.townnews.com/goshennews.com/content/tncms/assets/v3/editorial/7/b3/7b3215d5-e192-5f85-88c5-c8a17caf20df/66b2f62638102.image.jpg?resize=1200%2C800"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- grid -->
+      <div
+        class="hidden sm:grid sm:visable sm:col-span-2 sm:row-span-2 bg-primary rounded-md overflow-hidden"
+      >
+        <img
+          src="https://getvdrtips.net/wp-content/uploads/2022/02/Stock-News-Sources.jpg"
+          class="object-cover h-full w-full"
+          alt="img2"
+        />
+      </div>
+
+      <div
+        class="hidden sm:grid sm:col-span-2 sm:row-span-2 rounded-md overflow-hidden"
+      >
+        <!-- card title half and pic half-->
+        <div class="col-span-2 grid-cols-1 md:grid grid-cols-2 gap-2 p-2">
+          <!-- card-component -->
+          <!-- image -->
+          <div>
+            <img
+              class="rounded-xl h-full object-cover"
+              src="https://www.china-briefing.com/news/wp-content/uploads/2019/09/China-Briefing-The-US-China-Trade-War-A-Timeline3.jpg"
+              alt=""
+            />
+          </div>
+          <!-- for details -->
+          <div class="card mb-3">
+            <div class="p-3">
+              <!-- title -->
+              <div class="title">
+                <h2 class="font-bold">The US-China Trade War: A Timeline</h2>
+                <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+              </div>
+              <!-- desctiption -->
+              <div class="description">
+                <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                  The office of the US Trade Representative (USTR) also released
+                  an announcement, speaking positively on the trade deal. “The
+                  parties addressed steps that China has taken to effectuate
+                  structural changes called for by the Agreement that will
+                  ensure greater protection for intellectual property rights,
+                  remove impediments to American companies in the areas of
+                  financial services
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="px-[10px] sm:px-[50px] md:px-[85px] xl:px-[100px] z-0">
+      <!-- news card section -->
+      <section>
+        <h2 class="p-2">Lates News</h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-1 mb-10 place-content-center  p-5  md:p-2"
+        >
+          <!-- card column 1 and 2 and 3-->
+           <!-- cards 1 2 -->
+          <div class="  md:col-span-2 gap-4 grid place-content-center  grid-cols-1  md:grid-cols-2"> 
+
+            <!-- card-1-->
+            <div class="card mb-3  col-span-2  md:col-span-1 grid border-b-2 grid-rows-subgrid row-span-2">
+              <!-- card-component -->
+              <div class="relative group">
+                <img
+                  class="rounded-xl h-full w-full object-cover opacity-100 hover:opacity-75 duration-300 transition-opacity group-hover:opacity-75"
+                  src="https://www.china-briefing.com/news/wp-content/uploads/2019/09/China-Briefing-The-US-China-Trade-War-A-Timeline3.jpg"
+                  alt=""
+                />
+
+                <div
+                  class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-primary bg-opacity-75 text-white p-4 rounded-xl"
+                >
+                  <span class="text-blue-500">You need to login first </span>
+                  
+                </div>
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold">The US-China Trade War: A Timeline</h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    The office of the US Trade Representative (USTR) also
+                    released an announcement, speaking positively on the trade
+                    deal. “The parties addressed steps that China has taken to
+                    effectuate structural changes called for by the Agreement
+                    that will ensure greater protection for intellectual
+                    property rights, remove impediments to American companies in
+                    the areas of financial services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card mb-3  col-span-2  md:col-span-1   grid border-b-2 grid-rows-subgrid row-span-2">
+              <!-- card-component -->
+              <div class="relative group">
+                <img
+                  class="rounded-xl h-full w-full object-cover opacity-100 hover:opacity-75 duration-300 transition-opacity group-hover:opacity-75"
+                  src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/X4GBXS5BU5IIPGXLRHTI4IJZJQ.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-primary bg-opacity-75 text-white p-4 rounded-xl"
+                >
+                  <span class="text-blue-500">You need to login first </span>
+                </div>
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold">
+                    Top US General Says Risk of Broader War Eases a Bit
+                    Following Hezbollah-Israel Exchange
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    Biden’s administration has been seeking to limit the fallout
+                    from the conflict in the Gaza Strip between Israel and
+                    Hamas, now in its 11th month. The war has leveled huge
+                    swathes of the Gaza Strip, triggered border clashes between
+                    Israel and Iranian-backed Hezbollah and drawn in Yemen’s
+                    Houthis.
+                  </span>
+                </div>
+              </div>
+            </div>        
+            <!-- card 3   -->
+            <div class="card mb-3   col-span-2  md:col-span-1  grid border-b-2 grid-rows-subgrid row-span-2">
+              <!-- card-component -->
+              <div class="relative group">
+                <img
+                class="rounded-xl h-full w-full object-cover opacity-100 hover:opacity-75 duration-300 transition-opacity group-hover:opacity-75"
+                  src="https://i0.wp.com/www.tgnns.com/wp-content/uploads/2024/08/Paetongtarn-Shinawatra-Thailand-New-Prime-Minister.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-primary bg-opacity-75 text-white p-4 rounded-xl"
+                >
+                  <span class="text-blue-500">You need to login first </span>
+                </div>
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold">
+                    Top US General Says Risk of Broader War Eases a Bit
+                    Following Hezbollah-Israel Exchange
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    Biden’s administration has been seeking to limit the fallout
+                    from the conflict in the Gaza Strip between Israel and
+                    Hamas, now in its 11th month. The war has leveled huge
+                    swathes of the Gaza Strip, triggered border clashes between
+                    Israel and Iranian-backed Hezbollah and drawn in Yemen’s
+                    Houthis.
+                  </span>
+                </div>
+              </div>
+            </div>  
+            <!-- card-4 -->
+            <div class="card mb-3   col-span-2  md:col-span-1  grid border-b-2 grid-rows-subgrid row-span-2">
+              <!-- card-component -->
+              <div   class="relative group" >  
+                <img
+                class="rounded-xl h-full w-full object-cover opacity-100 hover:opacity-75 duration-300 transition-opacity group-hover:opacity-75"
+                  src="https://i.ytimg.com/vi/m2HWS4I123M/maxresdefault.jpg"
+                  alt=""
+                />
+                <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-primary bg-opacity-75 text-white p-4 rounded-xl"
+              >
+                <span class="text-blue-500">You need to login first </span>
+              </div>
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold">
+                    Singapore Airlines said the plane descended 6,000 feet in
+                    about three minutes.
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    Aviation investigators arrived in Bangkok on Wednesday
+                    (5/22) to analyze the cause of Singapore Airlines plane’s
+                    severe turbulence that led to the sudden dive. Singapore
+                    Airlines said the plane descended 6,000 feet in about three
+                    minutes.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- card-5-->
+            <div class="card mb-3  col-span-2  md:col-span-1  grid border-b-2 grid-rows-subgrid row-span-2">
+              <!-- card-component -->
+              <div   class="relative group" >
+                <img
+                class="rounded-xl h-full w-full object-cover opacity-100 hover:opacity-75 duration-300 transition-opacity group-hover:opacity-75"
+                  src="https://i.ytimg.com/vi/nP24eyJfO7k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7ZJOUbf3v9AqlmjE6WeX35FBGlA"
+                  alt=""
+                />
+                <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-primary bg-opacity-75 text-white p-4 rounded-xl"
+              >
+                <span class="text-blue-500">You need to login first </span>
+                
+              </div>
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold">
+                    You’re not being told the truth about Canada’s ‘green
+                    transformation’
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    What about exports? Canada’s annual exports of “clean”
+                    products and carbon-free energy total some $18 billion, out
+                    of total goods exports that exceeded $750 billion in 2021.
+                    By comparison, exports of crude oil, oil products and
+                    natural gas—by far Canada’s biggest export category—are on
+                    course to reach $200 billion by mid-decade.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- card-6-->
+            <div class="card mb-3  col-span-2  md:col-span-1  grid border-b-2 grid-rows-subgrid row-span-2">
+              <!-- card-component -->
+              <div class="relative group" >
+                <img
+                class="rounded-xl h-full w-full object-cover opacity-100 hover:opacity-75 duration-300 transition-opacity group-hover:opacity-75"
+                  src="https://e3.365dm.com/20/11/2048x1152/skynews-thailand-protests-democracy_5158938.jpg"
+                  alt=""
+                />
+                <div
+                class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-primary bg-opacity-75 text-white p-4 rounded-xl"
+              >
+                <span class="text-blue-500">You need to login first </span>
+                
+              </div>
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold">
+                    Thailand protests: Why are Thai people protesting and what
+                    is the significance?
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    "If that doesn't come anytime soon I'm willing to go however
+                    far it takes because if not now, when? "If it takes my life
+                    or my safety - I know just by going out now I am risking so
+                    much of my safety and people around me, my family is also at
+                    risk of being harassed by the police. "I want to tell my
+                    children I didn't stay silent, I did something to change
+                    their lives, and my children's lives are more valuable than
+                    my life."
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- card title half and pic half-->
+            <div class="col-span-2 grid-cols-1 md:grid grid-cols-2 gap-2 p-2">
+              <!-- card-1-->
+              <div class="card mb-3">
+                <!-- card-component -->
+                <!-- for details -->
+                <div class="p-3">
+                  <!-- title -->
+                  <div class="title">
+                    <h2 class="font-bold">
+                      The US-China Trade War: A Timeline
+                    </h2>
+                    <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                    <span class="opacity-30 text-sm ml-3">
+                      August 25, 2020
+                    </span>
+                  </div>
+                  <!-- desctiption -->
+                  <div class="description">
+                    <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                      The office of the US Trade Representative (USTR) also
+                      released an announcement, speaking positively on the trade
+                      deal. “The parties addressed steps that China has taken to
+                      effectuate structural changes called for by the Agreement
+                      that will ensure greater protection for intellectual
+                      property rights, remove impediments to American companies
+                      in the areas of financial services
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img
+                  class="rounded-xl"
+                  src="https://www.china-briefing.com/news/wp-content/uploads/2019/09/China-Briefing-The-US-China-Trade-War-A-Timeline3.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!-- another side column ti 3-->
+          <div
+          class="grid col-span-2 md:col-span-1 grid-col-1 gap-1 p-5 md:p-2"
+        >
+            <div>
+              <span>
+                <h2 class="font-bold p-2">Trending News</h2>
+              </span>
+            </div>
+            <!-- card-1 -->
+            <div
+              class="grid col-span-2 grid-col-1 md:pb-0 md:grid-cols-2 grid-rows-[300px]"
+            >
+              <!-- card-component -->
+              <!-- image -->
+              <div>
+                <img
+                  class="rounded-xl h-full w-full object-cover"
+                  src="https://ichef.bbci.co.uk/news/976/cpsprodpb/129CA/production/_129043267_gettyimages-1241769526.jpg"
+                  alt=""
+                />
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold line-clamp-3 xl:line-clamp-none">
+                    The US-China Trade War: A Timeline
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description hidden xl:inline">
+                  <span class="line-clamp-6 md:line-clamp-4 xl:line-clamp-7">
+                    The office of the US Trade Representative (USTR) also
+                    released an announcement, speaking positively on the trade
+                    deal. “The parties addressed steps that China has taken to
+                    effectuate structural changes called for by the Agreement
+                    that will ensure greater protection for intellectual
+                    property rights, remove impediments to American companies in
+                    the areas of financial services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div
+              class="grid col-span-2 grid-col-1 md:grid-cols-2 grid-rows-[300px]"
+            >
+              <!-- card-component -->
+              <!-- image -->
+              <div>
+                <img
+                  class="rounded-xl h-full w-full object-cover"
+                  src="https://ca-times.brightspotcdn.com/dims4/default/6cfc3e5/2147483647/strip/true/crop/3000x2000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8c%2F2d%2F302bc34ebfe53be9a092fee0a48e%2F7eacea28a24841e7a718c4f0d876984e"
+                  alt="korea"
+                />
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold line-clamp-3 xl:line-clamp-none">
+                    The US-China Trade War: A Timeline
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description hidden xl:inline">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    The office of the US Trade Representative (USTR) also
+                    released an announcement, speaking positively on the trade
+                    deal. “The parties addressed steps that China has taken to
+                    effectuate structural changes called for by the Agreement
+                    that will ensure greater protection for intellectual
+                    property rights, remove impediments to American companies in
+                    the areas of financial services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- card-3 -->
+            <div
+              class="grid col-span-2 grid-col-1 md:grid-cols-2 grid-rows-[300px]"
+            >
+              <!-- card-component -->
+              <!-- image -->
+              <div>
+                <img
+                  class="rounded-xl h-full w-full object-cover"
+                  src="https://image.cnbcfm.com/api/v1/image/107354472-17044004151704400411-32746430886-1080pnbcnews.jpg?v=1704400414&w=750&h=422&vtcrop=y"
+                  alt="cnbc"
+                />
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold line-clamp-3 xl:line-clamp-none">
+                    The US-China Trade War: A Timeline
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description hidden xl:inline">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    The office of the US Trade Representative (USTR) also
+                    released an announcement, speaking positively on the trade
+                    deal. “The parties addressed steps that China has taken to
+                    effectuate structural changes called for by the Agreement
+                    that will ensure greater protection for intellectual
+                    property rights, remove impediments to American companies in
+                    the areas of financial services
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- card-4 -->
+            <div
+              class="grid col-span-2 grid-col-1 md:grid-cols-2 grid-rows-[300px]"
+            >
+              <!-- card-component -->
+              <!-- image -->
+              <div>
+                <img
+                  class="rounded-xl h-full w-full object-cover"
+                  src="https://static01.nyt.com/images/2023/09/18/multimedia/18headlines-promo-tjhv/18headlines-promo-tjhv-superJumbo.jpg"
+                  alt="China"
+                />
+              </div>
+              <!-- for details -->
+              <div class="p-3">
+                <!-- title -->
+                <div class="title">
+                  <h2 class="font-bold line-clamp-3 xl:line-clamp-none">
+                    The US-China Trade War: A Timeline
+                  </h2>
+                  <span class="opacity-30 text-sm">Posted by Ny Fong </span>
+                  <span class="opacity-30 text-sm ml-3"> August 25, 2020 </span>
+                </div>
+                <!-- desctiption -->
+                <div class="description hidden xl:inline">
+                  <span class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7">
+                    The office of the US Trade Representative (USTR) also
+                    released an announcement, speaking positively on the trade
+                    deal. “The parties addressed steps that China has taken to
+                    effectuate structural changes called for by the Agreement
+                    that will ensure greater protection for intellectual
+                    property rights, remove impediments to American companies in
+                    the areas of financial services
+                  </span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- app -->
+      <section>
+        <!-- title -->
+        <div class="">
+          <span class="text-xl"> our application ៖</span>
+          <!-- grid system -->
+          <div class="grid grid-cols-1 md:grid-cols-3">
+            <div class="px-3">
+              <img
+                src="https://www.ajc.com/resizer/iG3nST2sA8y00owt4PzyGTt79H8=/arc-anglerfish-arc2-prod-ajc/public/AP53SSKMYZB6VLLMOJFASPXVUY.png"
+                class="h-[500px] object-contain"
+                alt="phone"
+              />
+            </div>
+            <!-- description -->
+            <div class="col-span-2 p-10 md:p-1">
+              <span class="underline">
+                Install our application now to get hot news</span
+              >
+              <!-- template -->
+              <div
+                class="grid grid-cols-4 grid-rows-[100px_100px_100px_100px] gap-1 mb-10 p-2 rounded-xl"
+              >
+                <!-- card -->
+                <div
+                  class="col-span-2 row-span-3 bg-primary rounded-xl border-2 overflow-hidden"
+                >
+                  <img
+                    src="https://cloudfront-us-east-1.images.arcpublishing.com/ajc/732CZ2N3FZF7DOZUHW4MPVX6TA.jpg"
+                    class="object-cover h-full w-full"
+                    alt="img1"
+                  />
+                </div>
+                <!-- card -->
+                <div
+                  class="col-span-2 row-span-2 border-2 rounded-xl overflow-hidden p-4"
+                >
+                  <img
+                    src="https://miro.medium.com/v2/resize:fit:642/1*ew36jzYwMSJXL7iB4ROubQ.png"
+                    class="object-contain h-full w-full"
+                    alt="img2"
+                  />
+                </div>
+                <!-- card -->
+                <div
+                  class="col-span-2 row-span-2 border-2 rounded-xl overflow-hidden"
+                >
+                  <!-- card title half and pic half-->
+                  <div
+                    class="col-span-2 grid-cols-1 md:grid grid-cols-2 gap-2 p-2"
+                  >
+                    <!-- card-component -->
+                    <!-- image -->
+                    <div>
+                      <img
+                        class="rounded-xl h-full object-cover"
+                        src="https://www.ajc.com/resizer/eXq2I_r1j6EnseiDDpn2ZGg8eWw=/arc-anglerfish-arc2-prod-ajc/public/MEGR6CUIERADRNR6LHCYIB56HI.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- for details -->
+                    <div class="card mb-3">
+                      <div class="p-3">
+                        <!-- title -->
+                        <div class="title">
+                          <h2 class="font-bold">
+                            The US-China Trade War: A Timeline
+                          </h2>
+                          <span class="opacity-30 text-sm"
+                            >Posted by Ny Fong
+                          </span>
+                          <span class="opacity-30 text-sm ml-3">
+                            August 25, 2020
+                          </span>
+                        </div>
+                        <!-- desctiption -->
+                        <div class="description">
+                          <span
+                            class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7"
+                          >
+                            The office of the US Trade Representative (USTR)
+                            also released an announcement, speaking positively
+                            on the trade deal. “The parties addressed steps that
+                            China has taken to effectuate structural changes
+                            called for by the Agreement that will ensure greater
+                            protection for intellectual property rights, remove
+                            impediments to American companies in the areas of
+                            financial services
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- card -->
+                <div
+                  class="col-span-2 row-span-1 border-2 rounded-xl overflow-hidden"
+                >
+                  <!-- card title half and pic half-->
+                  <div
+                    class="col-span-2 grid-cols-1 md:grid grid-cols-2 gap-2 p-2"
+                  >
+                    <!-- card-component -->
+                    <!-- for details -->
+                    <div class="card mb-3">
+                      <div class="p-3">
+                        <!-- title -->
+                        <div class="title">
+                          <h2 class="font-bold">
+                            The US-China Trade War: A Timeline
+                          </h2>
+                          <span class="opacity-30 text-sm"
+                            >Posted by Ny Fong
+                          </span>
+                          <span class="opacity-30 text-sm ml-3">
+                            August 25, 2020
+                          </span>
+                        </div>
+                        <!-- desctiption -->
+                        <div class="description">
+                          <span
+                            class="line-clamp-3 md:line-clamp-4 xl:line-clamp-7"
+                          >
+                            The office of the US Trade Representative (USTR)
+                            also released an announcement, speaking positively
+                            on the trade deal. “The parties addressed steps that
+                            China has taken to effectuate structural changes
+                            called for by the Agreement that will ensure greater
+                            protection for intellectual property rights, remove
+                            impediments to American companies in the areas of
+                            financial services
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- image -->
+                    <div>
+                      <img
+                        class="rounded-xl h-full object-cover"
+                        src="https://www.ajc.com/resizer/eXq2I_r1j6EnseiDDpn2ZGg8eWw=/arc-anglerfish-arc2-prod-ajc/public/MEGR6CUIERADRNR6LHCYIB56HI.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       
+    </main>
+   
+    <!-- footer -->
+    <footer class="bg-white dark:bg-gray-900">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="https://flowbite.com/" class="flex items-center">
+              <img src="./img/logo.png" class="h-8 me-3" alt="FlowBite Logo" />
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                >FongNews Alternative</span
+              >
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                News
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="details.html" class="hover:underline">Political</a>
+                </li>
+                <li>
+                  <a href="details.html#sushi" class="hover:underline"
+                    >Technology</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                Follow us
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="https://github.com/Nyfong" class="hover:underline"
+                    >Github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://discord.gg/4eeurUVvTy"
+                    class="hover:underline"
+                    >Discord</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2024
+            <a href="https://flowbite.com/" class="hover:underline">CSTAD™</a>.
+            Pre University 1st generation
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a
+              href="https://www.facebook.com/nyfong25/"
+              target="_blank"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            >
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 8 19"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook page</span>
+            </a>
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            >
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 21 16"
+              >
+                <path
+                  d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"
+                />
+              </svg>
+              <span class="sr-only">Discord community</span>
+            </a>
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            >
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Twitter page</span>
+            </a>
+            <a
+              href="https://github.com/Nyfong"
+              target="_blank"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            >
+              <svg
+                class="w-4 h-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">GitHub account</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+          delay: 1000,
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
